@@ -1,0 +1,51 @@
+Configure Git-------------->
+
+git config --global user.name "rahul_sisodiya"
+git config --global user.email "rahul.s.eproc@gmail.com.com"
+
+Creating Git Folder------------->
+
+mkdir myproject
+cd myproject
+
+Initialize Git------------------->
+git init 
+
+git status
+
+Git Staging Environment-------->
+
+git add index.html
+git add --all
+git commit -m "First release of Hello World!"
+git status --short
+git commit -a -m "Updated index.html with a new line"
+
+Git Commit Log------->
+git log
+
+git commit -a -m "Updated index.html with a new line"
+
+git commit -help
+
+New Git Branch------->
+git branch hello-world-images
+git branch
+  hello-world-images
+* master
+git checkout hello-world-images
+Switched to branch 'hello-world-images'
+
+Merge Conflict------------------->
+git checkout master
+git merge hello-world-images
+
+For Commiting new changes--->
+
+git commit -m "new chang in index"
+git push
+
+For adding new file------------>
+ git add --all
+git commit -m "new bew file"
+git push
